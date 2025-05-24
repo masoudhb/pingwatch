@@ -15,13 +15,13 @@ and execute a custom script (e.g., send SMS, email) when the status changes from
 
 - `pingwatch.sh`: Main bash script  
 - `pingwatch.service`: Example systemd service file  
-- `send_sms.php`: Your custom alert logic (not included, user-defined)
+- `send_alert.php`: Your custom alert logic (not included, user-defined)
 
 ## 🛠️ Installation
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/pingwatch.git
+   git clone https://github.com/masoudhb/pingwatch.git
    cd pingwatch
    ```
 
@@ -60,6 +60,7 @@ and execute a custom script (e.g., send SMS, email) when the status changes from
 ```
 Sat May 24 11:51:07 BST 2025: First ping failed, waiting 30s to recheck...
 Sat May 24 11:51:38 BST 2025: Status changed to DOWN
+Sat May 24 11:57:18 BST 2025: Status changed to UP
 ```
 
 ## 📄 License
