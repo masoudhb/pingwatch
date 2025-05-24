@@ -33,7 +33,7 @@ and execute a custom script (e.g., send SMS, email) when the status changes from
 
 4. Create a systemd service:
    /etc/systemd/system/pingwatch.service
-   -------------------------------------
+
    [Unit]
    Description=Ping Watcher Service
    After=network.target
