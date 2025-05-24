@@ -54,6 +54,7 @@ and execute a custom script (e.g., send SMS, email) when the status changes from
 -----------------
 Sat May 24 11:51:07 BST 2025: First ping failed, waiting 30s to recheck...
 Sat May 24 11:51:38 BST 2025: Status changed to DOWN
+Sat May 24 11:57:18 BST 2025: Status changed to UP
 
 📄 License
 ----------
